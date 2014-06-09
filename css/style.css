@@ -1,0 +1,164 @@
+/*
+Name: Blackboard
+URI: http://brandonkwong.com/dev/blackboard
+Description: A one-page template to explore front-end technologies.
+Author: Brandon Kwong
+Author URI: http://brandonkwong.com
+Version: 1.0.0 (Document last updated on 8-Jun-14)
+*/
+
+
+/* =Fonts
+-------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic|Open+Sans:300,400,700);
+
+
+/* =Body
+-------------------------------------------------------------- */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    color: #222;
+    font: normal 400 1em 'Open Sans', sans-serif;
+}
+
+h1, h2, p {
+    margin: 0;
+    letter-spacing: .05em;
+}
+
+h1 {
+    font-size: 4.25em;
+    font-weight: 700;
+    line-height: 1.05em;
+    margin-bottom: .1em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.25em;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+p {
+    font: normal 400 1em 'Gentium Book Basic', serif;
+    line-height: 1.75em;
+    margin-bottom: .75em;
+}
+
+a {
+    border-bottom: 1px dotted #bbb;
+    color: #197ca8;
+    padding-bottom: .12em;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px dotted #197ca8;
+    color: #197ca8;
+}
+
+a:active {
+    background: #197ca8;
+    border-bottom: 1px dotted #fff;
+    color: #fff;
+}
+
+
+/* =Content
+-------------------------------------------------------------- */
+#header {
+    background: url('http://thepatternlibrary.com/img/h.jpg') fixed;
+    color: #fff;
+    padding: 3.5em 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 40.5em;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.content {
+    padding: .75em 0 0;
+    text-align: justify;
+}
+
+
+/* =Button
+-------------------------------------------------------------- */
+button {
+    background: transparent;
+    border: 1px solid #222;
+    border-radius: 4px;
+    color: #222;
+    cursor: pointer;
+    font: normal 400 1em 'FontAwesome', 'Open Sans', sans-serif;
+    letter-spacing: .05em;
+    margin: .75em 0;
+    padding: .5em 1.25em .45em;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: #222;
+    color: #fff;
+}
+
+button:active {
+    background: #333;
+    border: 1px solid #333;
+    color: #fff;
+}
+
+button:focus {
+    outline:none;
+}
+
+
+/* =Footer
+-------------------------------------------------------------- */
+#footer {
+    margin: 0 auto;
+    padding: 3em 0;
+    text-align: center;
+}
+
+#footer p {
+    font: normal 400 1em 'Open Sans', sans-serif;
+}
+
+
+/* =Media Queries
+-------------------------------------------------------------- */
+@media only screen and (max-width: 45em) {
+    h1 {
+        font-size: 4em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+    }
+}
+
+@media only screen
+and (min-device-width : 20em)
+and (max-device-width : 35.5em) {
+    html {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+}
+
+@media only screen
+and (min-device-width : 48em)
+and (max-device-width : 64em) {
+    html {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+}

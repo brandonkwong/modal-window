@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modal Window | Brandon Kwong</title>
+    <meta name="description" content="An interactive modal window with form content, built to demonstrate various front-end technologies and exercise UI/IxD.">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/modal-window.css" rel="stylesheet">
+    <script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+
+<article>
+    <header id="header">
+        <div class="container">
+            <h1>Modal Window</h1>
+            <h2>An article from Wikipedia, the free encyclopedia</h2>
+        </div>
+    </header>
+    <section class="container">
+        <div class="content">
+            <p>In user interface design, a modal window is a child window that requires users to interact with it before they can return to operating the parent application, thus preventing the workflow on the application main window. Modal windows are often called heavy windows or modal dialogs because the window is often used to display a dialog box.</p>
+        </div>
+        <button class="md-button" type="button">Read More</button>
+    </section>
+</article>
+
+<!-- START MODAL WINDOW -->
+<div class="md-window md-slide">
+    <div class="md-x">&#xf00d;</div>
+    <div class="md-content">
+        <h3>&#xf02d; Read More</h3>
+        <div>
+            <form>
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+                <button type="button">Login</button>
+            </form>
+            <p>New? &nbsp;<a href="javascript:void(0)">Sign Up</a>.</p>
+        </div>
+    </div>
+</div>
+<div class="md-overlay"></div>
+<script src="js/classList.min.js"></script>
+<script src="js/modal-window.js"></script>
+<!-- END MODAL WINDOW -->    
+    
+<footer id="footer">
+    <p>Find the source on <a href="https://github.com/brandonkwong/modal-window" target="_blank">GitHub</a>.</p>
+</footer>
+
+</body>    
+</html>
