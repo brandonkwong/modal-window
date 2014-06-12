@@ -1,10 +1,10 @@
 /*
-Name: Blackboard
+Name: Blackboard (Modal Window)
 URI: http://brandonkwong.com/dev/blackboard
 Description: A one-page template to explore front-end technologies.
 Author: Brandon Kwong
 Author URI: http://brandonkwong.com
-Version: 1.0.0 (Document last updated on 8-Jun-14)
+Version: 1.0.1 (Document last updated on 11-Jun-14)
 */
 
 
@@ -23,12 +23,16 @@ html, body {
 body {
     background: #fff;
     color: #222;
-    font: normal 400 1em 'Open Sans', sans-serif;
+    font: normal 400 100% 'Open Sans', sans-serif;
 }
 
 h1, h2, p {
     margin: 0;
     letter-spacing: .05em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
 }
 
 h1 {
@@ -87,7 +91,7 @@ a:active {
 
 .content {
     padding: .75em 0 0;
-    text-align: justify;
+    text-align: left;
 }
 
 
@@ -140,10 +144,6 @@ button:focus {
 @media only screen and (max-width: 45em) {
     h1 {
         font-size: 4em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        -o-transition: all .3s;
-        transition: all .3s;
     }
 }
 
